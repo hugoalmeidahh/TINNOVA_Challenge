@@ -1,0 +1,25 @@
+meta {
+  name: Update Vehicle
+  type: http
+  seq: 4
+}
+
+put {
+  url: http://localhost:8080/api/vehicle/19
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "vehicle": "SUV",
+    "brand": "BMW",
+    "model": "320i",
+    "color": "Azul Metálico",
+    "year": 2023,
+    "plateNumber": "POA2023",
+    "sold": false,
+    "createdAt": null,
+    "updatedAt": null
+  }
+}
