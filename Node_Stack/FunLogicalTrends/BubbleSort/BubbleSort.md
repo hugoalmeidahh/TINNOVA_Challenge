@@ -1,5 +1,7 @@
 # Bubble Sort
 
+<img title="BubbleSort" alt="" src="bubblesort.webp" width="256" height="256">
+
 [Português](#português) | [English](#english)
 
 ## Português

@@ -1,5 +1,7 @@
 # Fatorial | Factorial
 
+<img title="Factorial" alt='" src="/factorialImage.png">
+
 [Português](#português) | [English](#english)
 
 ## Português
