@@ -3,17 +3,20 @@ export interface Vehicle {
   brand: string;
   model: string;
   year: number;
+  color: string;
   price: number;
-  sold: boolean;
-  createdAt: string;
-  updatedAt: string;
+  description?: string;
+  createdAt: Date;
+  updatedAt: Date;
 }
 
+export interface VehicleFormData extends Omit<Vehicle, 'id' | 'createdAt' | 'updatedAt'> {}
+
 export interface CreateVehicleDTO {
-  vehicle: string;
   brand: string;
+  model: string;
   year: number;
-  description: string;
+  price: number;
   sold?: boolean;
 }
 

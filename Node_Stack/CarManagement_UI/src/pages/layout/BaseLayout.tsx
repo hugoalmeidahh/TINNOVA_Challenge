@@ -1,6 +1,6 @@
 import { Link, Outlet } from 'react-router-dom';
 
-export function MainLayout() {
+export function BaseLayout() {
   return (
     <div className="min-h-screen bg-gray-100">
       <nav className="bg-white shadow-sm">
@@ -36,4 +36,4 @@ export function MainLayout() {
       </main>
     </div>
   );
-} 
+}

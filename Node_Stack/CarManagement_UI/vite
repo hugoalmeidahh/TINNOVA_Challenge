@@ -1,0 +1,35 @@
+
+
+  VITE v6.2.3  ready in 951 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+Error:   Failed to scan for dependencies from entries:
+  /Users/hugo/Projects/TINNOVA_Challenge/Node_Stack/CarManagement_UI/index.html
+
+  ✘ [ERROR] No matching export in "src/App.tsx" for import "default"
+
+    src/main.tsx:4:7:
+      4 │ import App from './App.tsx'
+        ╵        ~~~
+
+
+    at failureErrorWithLog (/Users/hugo/Projects/TINNOVA_Challenge/Node_Stack/CarManagement_UI/node_modules/esbuild/lib/main.js:1477:15)
+    at /Users/hugo/Projects/TINNOVA_Challenge/Node_Stack/CarManagement_UI/node_modules/esbuild/lib/main.js:946:25
+    at runOnEndCallbacks (/Users/hugo/Projects/TINNOVA_Challenge/Node_Stack/CarManagement_UI/node_modules/esbuild/lib/main.js:1317:45)
+    at buildResponseToResult (/Users/hugo/Projects/TINNOVA_Challenge/Node_Stack/CarManagement_UI/node_modules/esbuild/lib/main.js:944:7)
+    at /Users/hugo/Projects/TINNOVA_Challenge/Node_Stack/CarManagement_UI/node_modules/esbuild/lib/main.js:956:9
+    at new Promise (<anonymous>)
+    at requestCallbacks.on-end (/Users/hugo/Projects/TINNOVA_Challenge/Node_Stack/CarManagement_UI/node_modules/esbuild/lib/main.js:955:54)
+    at handleRequest (/Users/hugo/Projects/TINNOVA_Challenge/Node_Stack/CarManagement_UI/node_modules/esbuild/lib/main.js:648:17)
+    at handleIncomingPacket (/Users/hugo/Projects/TINNOVA_Challenge/Node_Stack/CarManagement_UI/node_modules/esbuild/lib/main.js:673:7)
+    at Socket.readFromStdout (/Users/hugo/Projects/TINNOVA_Challenge/Node_Stack/CarManagement_UI/node_modules/esbuild/lib/main.js:601:7)
+clear
+
+^C
+  ✘ [ERROR] No matching export in "srczsh: command not found: dev
+  ✘ [ERROR] No matching export in "srczsh: command not found: dev
+  ✘ [ERROR] No matching export in "srczsh: command not found: dev
+  ✘ [ERROR] No matching export in "srczsh: command not found: dev
+  ✘ [ERROR] No matching export in "srczsh: command not found: dev

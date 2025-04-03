@@ -1,17 +1,17 @@
 import { createBrowserRouter } from 'react-router-dom';
-import { MainLayout } from './components/layout/MainLayout';
-import { Dashboard } from './pages/Dashboard';
-import { Vehicles } from './pages/Vehicles';
-import { VehicleForm } from './pages/VehicleForm';
+import { BaseLayout } from '../pages/layout/BaseLayout';
+import { DashboardPage } from '../pages/dashboard/DashboardPage';
+import { Vehicles } from '../pages/vehicle/VehiclePage';
+import { VehicleForm } from '../pages/vehicle/VehicleForm';
 
 export const router = createBrowserRouter([
   {
     path: '/',
-    element: <MainLayout />,
+    element: <BaseLayout />,
     children: [
       {
         index: true,
-        element: <Dashboard />,
+        element: <DashboardPage />,
       },
       {
         path: 'vehicles',

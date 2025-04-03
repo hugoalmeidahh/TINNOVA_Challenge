@@ -1,45 +1,50 @@
 # Car Management UI
 
-Interface de usuário para o sistema de gerenciamento de veículos, desenvolvida com React, TypeScript, Tailwind CSS e Shadcn UI.
+Interface de usuário para o sistema de gerenciamento de veículos.
 
 ## Tecnologias Utilizadas
 
-- React 18
+- React
 - TypeScript
 - Tailwind CSS
 - Shadcn UI
-- React Router DOM
-- React Query
-- React Hook Form
-- Zod
-- Recharts
+- Vite
+- React Router
+- Axios
 
 ## Requisitos
 
-- Node.js 18 ou superior
+- Node.js 18+
 - npm ou yarn
 
 ## Instalação
 
-1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/car-management-ui.git
-```
-
+1. Clone o repositório
 2. Instale as dependências:
-```bash
-cd car-management-ui
-npm install
-```
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
 
-3. Configure as variáveis de ambiente:
-```bash
-cp .env.example .env
-```
+## Desenvolvimento
 
-4. Inicie o servidor de desenvolvimento:
+Para iniciar o servidor de desenvolvimento:
+
 ```bash
 npm run dev
+# ou
+yarn dev
+```
+
+## Build
+
+Para criar uma build de produção:
+
+```bash
+npm run build
+# ou
+yarn build
 ```
 
 ## Estrutura do Projeto
@@ -48,30 +53,19 @@ npm run dev
 src/
   ├── components/     # Componentes reutilizáveis
   ├── pages/         # Páginas da aplicação
-  ├── services/      # Serviços de API
-  ├── types/         # Definições de tipos TypeScript
-  ├── utils/         # Funções utilitárias
-  ├── App.tsx        # Componente principal
-  ├── main.tsx       # Ponto de entrada
-  └── index.css      # Estilos globais
+  ├── services/      # Serviços e APIs
+  ├── utils/         # Utilitários e helpers
+  ├── types/         # Definições de tipos
+  └── App.tsx        # Componente principal
 ```
-
-## Funcionalidades
-
-- Dashboard com gráficos e estatísticas
-- Listagem de veículos
-- Criação de veículos
-- Edição de veículos
-- Exclusão de veículos
-- Filtros e busca
-- Responsividade
 
 ## Scripts Disponíveis
 
-- `npm run dev`: Inicia o servidor de desenvolvimento
-- `npm run build`: Cria a build de produção
-- `npm run preview`: Visualiza a build de produção localmente
-- `npm run lint`: Executa o linter
+- `dev`: Inicia o servidor de desenvolvimento
+- `build`: Cria uma build de produção
+- `preview`: Visualiza a build de produção localmente
+- `lint`: Executa o linter
+- `format`: Formata o código com Prettier
 
 ## Contribuição
 
@@ -84,3 +78,4 @@ src/
 ## Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+

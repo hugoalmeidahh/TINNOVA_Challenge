@@ -1,9 +1,4 @@
 
-
-
-
-
-
 // routes pages
 export const routes = {
     HOME: '/',
